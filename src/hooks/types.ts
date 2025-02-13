@@ -57,6 +57,7 @@ export interface FormField {
     | "textarea"
     | "choose"
     | "stringNumeric"
+    | "stringNumeric"
     | "productForm";
   value?: any;
   rows?: number;

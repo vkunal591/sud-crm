@@ -22,9 +22,9 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css"; // Import Toastify styles
 
 export const metadata: Metadata = {
-  title: "Maskeen Toys",
+  title: "SUD",
   description:
-    "Maskeen Toys integrates cutting-edge blockchain technology to provide a secure and transparent ledger system, ensuring real-time tracking of all transactions and operations.",
+    "SUD Ship Management",
 };
 
 const lato = Lato({
