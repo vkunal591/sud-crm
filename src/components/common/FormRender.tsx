@@ -14,6 +14,7 @@ import WarehouseForm from "../crud/WareHouseForm";
 import CategoryForm from "../crud/product/CategoryForm";
 import ConfirmationModal from "../crud/ConfirmationModal";
 import StockTransferForm from "../crud/StockTransferForm";
+import ShipForm from "../crud/ShipForm";
 
 interface FormRendererProps {
   data: any;
@@ -43,6 +44,8 @@ const FormRenderer: React.FC<FormRendererProps> = (props: any) => {
       return <LeadForm {...props} />;
     case "Ledger":
       return <LedgerForm {...props} />;
+    case "Ships":
+      return <ShipForm {...props} />;
     case "Purchase":
       return <PurchaseForm {...props} />;
     case "Payment":
